@@ -1,0 +1,25 @@
+@media (max-width: 1160px){
+    .swiper-vertical>.swiper-pagination-bullets, .swiper-pagination-vertical.swiper-pagination-bullets {
+    right: var(--swiper-pagination-right, 8px);
+    left: 60px !important;
+    top: 50%;
+    transform: translate3d(0px, -50%, 0);
+}
+.social-links ul::before {
+    width: 968px;
+    left: -140px;
+}
+.social-links ul::after {
+    width: 70px;
+    right: -82px;
+}
+.service-box h1 {
+    font-size: 29px ! IMPORTANT;
+}
+}
+@media (max-width: 1025px){}
+@media only screen and (max-width:991px){
+ 
+  }
+@media (max-width: 576px){}
+@media (max-width: 320px){}
